@@ -12,6 +12,10 @@ namespace Summator.Tests
             Assert.That(expected == actual);
         }
 
+        // Try to test with these values
+        // a = 5.6; b = 8.5;
+        // ---------------------------------
+        // Try to add two numbers with long.MaxValue values;
         [Test]
         public void Test_Sum_OnePositiveNumber()
         {
